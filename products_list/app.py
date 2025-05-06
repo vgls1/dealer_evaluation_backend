@@ -27,7 +27,7 @@ def getDealers(product):
   if ret == False:
     return {"message":"Could not find dealers for this product"}
 
-if __name__=="__main__":
-    app.run(debug=True) 
-    # When no port is specified, starts at default port 5000
+  if __name__=="__main__":
+      app.run(debug=True) 
+      # When no port is specified, starts at default port 5000
 
